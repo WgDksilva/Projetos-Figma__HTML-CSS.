@@ -1,0 +1,149 @@
+/* 11° PROJETO 2 FIGMA Wide coverage location */
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-menu {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+.button-header {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+img {
+    margin: 163px 0 0 123px;
+    display: inline-block; 
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400; 
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom:55px;
+}
+
+.button-main {
+    font-weight: 500; 
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+
+/*________________________________________________________________________________________________*/
+
+/* 20° AULA - PROJETO N°1 FIGMA / RESPONSIVIDADE */
+
+@media screen and (max-width: 1300px) {
+    .link-menu {
+        display: none;
+    }
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        border: 1px;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        margin: 0 15px 76px 284px;
+    }
+    
+    .container-right {
+        width: 70%;
+        height: auto;
+        display: block;
+        position: static;
+    }
+
+    img {
+        width: 500px;
+        height: 400px;
+        margin: 59px 70px 22px 30px;
+        position: static;
+        max-width: 90%;
+        display: block;
+    }
+
+    h1 {
+        width: auto;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 0.6px;
+        text-align: center;
+        margin: 76px 50px 29px 50px;
+    }
+
+    p {
+        width: 304px;
+        width: auto;
+        height: 165px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin: 29px 43px 26px 43px;
+    }
+
+    .button-main {
+        width: 113px;
+        height: 27px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+  
+
+
