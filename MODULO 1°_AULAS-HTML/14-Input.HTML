@@ -1,0 +1,94 @@
+
+<!-- INPUT - Campo para digitar informações e envialas para um Site-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <divi>
+        <label>
+            Rua:
+            <!--TEGs adicionais (disabled)=> Desabilitado, (value="")=> Nome, (readonly)=> Somente Leitura -->
+            <!--PARAMETRO ( "street-address" )=> Endereço -->
+            <!--TEG ( placeholder="xxxxxx" )=> Texto indicador -->
+            <input autocomplete="street-address" placeholder="Digite Sua Rua"> 
+        </label>
+    </divi>
+    <br>
+    <br>
+    <divi>
+        <label for="rua">Rua</label> <!-- -->
+        <input id="rua" autofocus> <!--OBS: TEG (autofocus)- Somente em um <input> -->
+        <input id="numero">
+        <input id="complemento">
+
+    </divi>
+
+    <div> <!-- Formulario de multipla escolha interligadas OBS: (interligação TEG( name=""), Deve ser todas -->
+        <h2> Qual a sua rede social favorita ?</h2>
+        <label for="facebook">Faacebook</label>  <!--TEG ( <label> )=> Texto indicativo de ( input ) -->
+        <input type="radio" id="facebook" name="rede-sociais"> <!-- TEG ( type="radio")=> Tipo Click de escolha -->
+
+
+        <label for="Instagram">Instagram</label>
+        <input type="radio" id="Instagram" name="rede-sociais">
+
+
+        <label for="Youtube">Youtube</label>
+        <input type="radio" id="Youtube" name="rede-sociais">
+
+    </div>
+    <br>
+    <divi>
+        <label>
+            Você Quer Molho Extra ?
+            <!-- PARAMETRO ( Formulario tipo  sim ou não ) -->
+            <input type="checkbox" autofocus>
+        </label>
+    </divi>
+    <br>
+    <div>    <!--TEG (type)=> Variedades-->
+             <!-- PARAMETRO ( Formulario tipo volume ) -->
+        <input type="range" min="100" max="500" value="200">
+        <br>
+        <br> 
+         <!-- PARAMETRO ( Formulario tipo cores ) -->
+        <input type="color" min="100" max="500" value="200">
+        <br>
+        <br> 
+         <!-- PARAMETRO ( Formulario tipo senha )  -->
+        <input type="password" autofocus>
+        <br>
+        <br> 
+         <!-- PARAMETRO ( Formulario tipo E-mail ) -->
+        <input type="email" autofocus>
+        <br>
+        <br>
+         <!-- PARAMETRO (Formulario para fazer opload de arquivo ) + 
+              TEG ( multiple )=> Opload de varios arquivos +
+              TEG ( (accept="")=>  Arquivos expecificos /., "jpg", "video/*", "imagem/*", "audio/*"-->
+        <input type="file" multiple accept="mp4">
+        <br>
+        <br> 
+         <!-- PARAMETRO ( Formulario so permite numeros ) -->
+        <input type="number" autofocus>
+        <br>
+        <br> 
+         <!-- PARAMETRO ( Formulario so permite datas ) -->
+        <input type="date">
+        <br>
+        <br> 
+         <!-- PARAMETRO ( Formulario so permite URL ) -->
+        <input type="url">
+    </div>
+    <br>
+
+</body>
+
+</html>

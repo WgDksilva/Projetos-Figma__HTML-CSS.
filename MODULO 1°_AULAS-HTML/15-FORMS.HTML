@@ -1,0 +1,59 @@
+
+<!-- FORMULARIO
+
+     - Capturar dados de entrada
+     - Input -> Entrada
+
+     Action
+         - Define para qual URL será enviado os dados, Vazia enviar para mesma URL
+     Method
+         -GET  = Metodo de envio de dados, Meio de comunicação entre: Eu/Cliente e o Servidor/Site
+         -POST = Metodo de envio de dados por de baixo dos panos, para envio de dados cigiloso                 
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body> <!-- ou (method="post") -->
+    <form action=" " method="get" enctype="multipart/form-data">
+        <label>
+            rua:
+            <!-- TEG ( < input enctype="multipart/form-dara"> )=> Pocibilita tambem o envio de Arquivos)-->
+            <input type="text" name="rua" autocomplete="street-address">
+        </label>
+        <br>
+        <br>
+        <label>
+            Numero:
+            <input type="number" name="Numero">
+        </label>
+        <br>
+        <br>
+        <label>
+            Email:
+            <input type="email" name="email">
+        </label>
+        <br>
+        <br>
+        <label>
+            Foto:
+            <input type="file" name="arquivo">
+        </label>
+        <br>
+        <br>
+         <!-- TEG ( type="submit")=> Enviar os dados de todos os ( inputs para uma URL ) -->
+        <button type="submit">Enviar dados</button>
+         <!-- PARAMETERO ( "reset" )=> Botão do tipo que deleta todos os campos -->
+        <button type="reset">Reset</button>
+
+
+    </form>
+
+</body>
+
+</html>
