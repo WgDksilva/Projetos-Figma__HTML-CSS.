@@ -1,4 +1,4 @@
-<h1>WE-CARE</h1>
+<h1>We-Care About Your Pet</h1>
 <br>
 <h2>Olá, Tudo Bem ? </h2>
 <h2>Esse foi meu 2° projeto comcluido e publicado na web ate o presente momento do curso de Desenvolvimento Web Front End <a href="https//rodolfomore.com.br/deviclub">DevClub.</a></h2>
